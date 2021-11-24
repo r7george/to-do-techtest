@@ -1,2 +1,17 @@
 @import "../components/_variables";
 
+.input {
+  display: flex;
+  border: 1px dashed $tertiaryColor;
+  background-color: $secondaryColor;
+  border-radius: 10px;
+  margin: 5px 25px 50px 25px;
+  padding: 20px;
+  justify-content: space-between;
+
+  &__task {
+    background-color: $secondaryColor;
+    border: none;
+    color: $tertiaryColor;
+  }
+}

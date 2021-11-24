@@ -1,0 +1,27 @@
+@import "../components/_variables";
+
+* {
+  font-family: $primaryFontStyle;
+}
+
+.nav {
+  &__logo {
+    font-size: $mediumFont;
+    font-weight: 500;
+  }
+  &__btn {
+    font-size: $regularFont;
+    font-weight: 700;
+  }
+}
+
+.intro {
+  &__header {
+    font-size: $largeFontMobile;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: $regularFont;
+    font-weight: 400;
+  }
+}

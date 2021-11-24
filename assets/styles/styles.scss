@@ -1,0 +1,18 @@
+@import "./components/_variables";
+@import "./components/_buttons";
+@import "./components/_typography";
+
+@import "./sections/_intro";
+@import "./sections/_nav";
+@import "./sections/_tasks";
+
+html {
+  background-color: $primaryColor;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

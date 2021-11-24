@@ -53,3 +53,14 @@
     font-size: $regularFont;
   }
 }
+
+.delete {
+  &__header {
+    font-size: $regularFont;
+    font-weight: 600;
+  }
+  &__btn {
+    font-size: $regularFont;
+    font-weight: 700;
+  }
+}

@@ -2,6 +2,7 @@ const reset = document.querySelector(".nav__btn");
 const submitTask = document.querySelector(".input__btn")
 const taskDisplay = document.querySelector(".tasks__display");
 const taskCounter = document.querySelector(".tasks__start-text");
+const deleteSection = document.querySelector(".delete");
 
 const taskArr = [];
 
@@ -33,5 +34,16 @@ const handleResetClick = () => {
   window.location.reload();
 }
 
+const taskCheckbox = document.querySelector(".task__checkbox");
+
 reset.addEventListener("click", handleResetClick);
 submitTask.addEventListener("click", handleSubmitClick);
+taskCheckbox.addEventListener("click", () => {
+  if (deleteSection.style.display === "none") {
+    deleteSection.style.display = "flex";
+  }
+  else {
+    deleteSection.style.display = "none";
+  }
+})
+

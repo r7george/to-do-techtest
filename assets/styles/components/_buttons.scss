@@ -27,3 +27,20 @@
   color: $btnColor;
   border: none;
 }
+
+.delete__btn {
+  background-image: linear-gradient(180deg, #e1a0a0, $btnColor);
+  color: $fontColor;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  > p {
+    padding-right: 10px;
+  }
+}
+
+.delete__btn:hover {
+  cursor: pointer;
+}

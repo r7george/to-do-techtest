@@ -1,0 +1,16 @@
+@import "../components/_variables";
+
+.delete {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: none;
+  padding: 25px;
+  justify-content: space-between;
+  background-color: $secondaryColor;
+  align-items: center;
+
+  &__header {
+    color: $fontColor;
+  }
+}

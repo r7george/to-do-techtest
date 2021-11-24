@@ -1,14 +1,9 @@
 const reset = document.querySelector(".nav__btn");
 const submitTask = document.querySelector(".input__btn")
 const taskDisplay = document.querySelector(".tasks__display");
+const taskCounter = document.querySelector(".tasks__start-text");
 
-const taskNumbers = 0;
-
-const incrementTaskNumber = (number) => {
-  if(number == 0) {
-
-  }
-}
+const taskArr = [];
 
 const makeTask = (task) => {
   return `
@@ -20,10 +15,18 @@ const makeTask = (task) => {
   `
 }
 
+const taskCounterHTML = (number) => {
+  return `Tasks to Complete: ${number}`;
+}
+
 const handleSubmitClick = () => {
   const input = document.querySelector(".input__task");
   const inputVal = input.value;
+  taskArr.push(inputVal);
   taskDisplay.innerHTML += makeTask(inputVal);
+  taskCounter.innerHTML = taskCounterHTML(taskArr.length);
+
+  input.value = "";
 }
 
 const handleResetClick = () => {

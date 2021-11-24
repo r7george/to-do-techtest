@@ -43,3 +43,13 @@
     font-weight: 400;
   }
 }
+
+.tasks {
+  &__text {
+    font-size: $regularFont;
+    font-weight: 500;
+  }
+  &__btn {
+    font-size: $regularFont;
+  }
+}

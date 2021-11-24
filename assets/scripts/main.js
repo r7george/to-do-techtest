@@ -15,7 +15,7 @@ const makeTask = (task) => {
   <div class="task">
     <input class="task__checkbox" type="checkbox">
     <p class="task__text">${task}</p>
-    <button class="task__btn"><i class="fas fa-pencil-alt"></i></button>
+    <button class="task__btn"><i class="fas fa-pencil-alt fa-lg"></i></button>
   </div>
   `
 }

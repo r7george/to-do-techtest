@@ -21,3 +21,9 @@
   padding: 0px 5px;
   border: none;
 }
+
+.task__btn, .fa-pencil-alt {
+  background-color: $secondaryColor;
+  color: $btnColor;
+  border: none;
+}

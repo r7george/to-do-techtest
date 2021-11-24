@@ -39,13 +39,23 @@
 }
 .intro__text {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .input__task {
   font-size: 16px;
   font-weight: 400;
 }
+
+.tasks__header {
+  font-size: 16px;
+  font-weight: 500;
+}
+.tasks__start-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .nav {
   display: flex;
   margin: 20px 25px;
@@ -81,6 +91,20 @@
 .input__task {
   background-color: #2B2A33;
   border: none;
+  color: #6C6A7C;
+  margin-left: 10px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+.tasks__header {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.tasks__start-text {
   color: #6C6A7C;
 }
 

@@ -22,7 +22,7 @@
   }
   &__text {
     font-size: $regularFont;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -30,9 +30,16 @@
   &__task {
     font-size: $regularFont;
     font-weight: 400;
+  }  
+}
+
+.tasks {
+  &__header {
+    font-size: $regularFont;
+    font-weight: 500;
   }
-  &__btn {
-    // font-size: ;
+  &__start-text {
+    font-size: $regularFont;
+    font-weight: 400;
   }
-  
 }
